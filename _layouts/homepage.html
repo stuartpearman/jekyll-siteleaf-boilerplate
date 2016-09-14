@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{ page.title }}</title>
+	<title>{{ site.title }}</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -9,7 +9,7 @@
 	{% include header.html %}
 	<section class="hero jumbotron">
 		{% if page.image %}
-			<div class="backdrop" style="background: url({{ page.image }}); background-attachment: fixed; background-size: auto 400px;"></div>
+			<div class="backdrop" style="background: url({{ page.image }}); background-attachment: fixed; background-size: auto 452px; background-position: center 0;"></div>
 		{% endif %}
 		<div class="container hero-content">
 			{{ content }}
@@ -25,5 +25,6 @@
 			</section>
 		{% endfor %}
 	{% endif %}
+	{% include footer.html %}
 </body>
 </html>

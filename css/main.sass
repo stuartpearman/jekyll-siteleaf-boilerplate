@@ -4,25 +4,35 @@
 body
 	font-family: avenir
 
+header
+	background: transparent
+	position: absolute
+	z-index: 10
+	top: 0
+	width: 100%
+
 section
 	padding: 20px
 	&:nth-child(odd)
 		background: #f6f6f6
+
+main
+	padding-top: 72px
 
 section.hero
 	position: relative
 	text-align: center
 	margin: 0
 	background: #000
-	height: 400px
-	padding-top: 150px
+	height: 450px
+	padding-top: 200px
 	.backdrop
 		position: absolute
 		left: 0
 		right: 0
 		top: 0
 		bottom: 0
-		opacity: 0.3
+		opacity: 0.5
 		-webkit-filter: blur(4px)
 	.hero-content
 		font-size: 2em
@@ -38,3 +48,18 @@ section.hero
 	margin-bottom: 0
 	border: 0
 	border-radius: 0
+
+.header-homepage .navbar
+	li > a, .navbar-brand
+		color: #fff
+		border-top: 4px solid transparent
+		&:hover
+			background: 0
+			border-color: #fff
+
+footer
+	padding: 20px
+	h4
+		font-weight: 400
+		color: #aaa
+		text-align: center

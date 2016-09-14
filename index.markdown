@@ -10,6 +10,7 @@ sections:
   body: This is the **Second** section of the page.
 - heading: Third Section
   body: This is the **Third** section of the page.
+visible: false
 ---
 
 This is the main hero content for the page
