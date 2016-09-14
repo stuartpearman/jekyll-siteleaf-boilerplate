@@ -1,7 +1,7 @@
 ---
 title: Interknights
 date: 2016-09-14 17:55:00 Z
-image: http://www.publicdomainpictures.net/pictures/50000/velka/nature-background-31.jpg
+image: http://stockography.co/wp-content/uploads/2015/11/city-skyline.jpg
 sections:
 - heading: First Section
   body: This is the **First** section of the page.
