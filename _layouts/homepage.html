@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	{% include header.html %}
+	<section class="hero jumbotron">
+		{% if page.image %}
+			<div class="backdrop" style="background: url({{ page.image }}); background-attachment: fixed; background-size: auto 400px;"></div>
+		{% endif %}
+		<div class="container hero-content">
+			{{ content }}
+		</div>
+	</section>
+	{% if page.sections %}
+		{% for section in page.sections %}
+			<section>
+				<div class="container">
+					<h2>{{ section.heading }}</h2>
+					<p>{{ section.body | markdownify }}</p>
+				</div>
+			</section>
+		{% endfor %}
+	{% endif %}
+</body>
+</html>
