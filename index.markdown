@@ -1,8 +1,7 @@
 ---
 title: Interknights
 date: 2016-09-14 17:55:00 Z
-layout: homepage
-image: https://upload.wikimedia.org/wikipedia/commons/c/cf/Grand_Rapids_Michigan_Panorama.jpg
+image: http://www.publicdomainpictures.net/pictures/50000/velka/nature-background-31.jpg
 sections:
 - heading: First Section
   body: This is the **First** section of the page.
@@ -11,6 +10,7 @@ sections:
 - heading: Third Section
   body: This is the **Third** section of the page.
 visible: false
+layout: homepage
 ---
 
 This is the main hero content for the page
