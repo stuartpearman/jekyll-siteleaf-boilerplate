@@ -1,7 +1,7 @@
 ---
-layout: homepage
 title: Interknights
 date: 2016-09-14 17:55:00 Z
+layout: homepage
 image: https://upload.wikimedia.org/wikipedia/commons/c/cf/Grand_Rapids_Michigan_Panorama.jpg
 sections:
 - heading: First Section
